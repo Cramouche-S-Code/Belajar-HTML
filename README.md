@@ -82,17 +82,38 @@ Jika sebuah komputer adalah sebuah gedung, alamat IP adalah alamat gedung terseb
    Web browser adalah perangkat lunak atau aplikasi yang digunakan untuk mengakses dan menampilkan halaman web dari internet. Browser berfungsi sebagai jembatan antara pengguna dan web server dengan menerjemahkan kode (seperti HTML, CSS, dan JavaScript) menjadi antarmuka visual yang dapat dilihat dan dinavigasi oleh pengguna.
 
 Fungsi Utama Web Browser:
-Mengirim Permintaan (Request): Browser mengirim permintaan HTTP/HTTPS ke server web untuk mengakses halaman tertentu.
-Menerima dan Menampilkan Data (Response): Setelah menerima respons dari server, browser akan memproses file yang diterima (HTML, CSS, JavaScript) dan menampilkan halaman web kepada pengguna.
-Rendering: Proses menerjemahkan kode web (HTML, CSS, JavaScript) menjadi tampilan yang bisa dinavigasi pengguna.
-Menyimpan Cache: Browser menyimpan salinan halaman web dan file statis (seperti gambar) untuk mempercepat akses di kemudian hari.
+
+Mengirim Permintaan (Request): 
+- Browser mengirim permintaan HTTP/HTTPS ke server web untuk mengakses halaman tertentu.
+
+Menerima dan Menampilkan Data (Response):
+- Setelah menerima respons dari server, browser akan memproses file yang diterima (HTML, CSS, JavaScript) dan menampilkan halaman web kepada pengguna.
+
+Rendering: 
+- Proses menerjemahkan kode web (HTML, CSS, JavaScript) menjadi tampilan yang bisa dinavigasi pengguna.
+
+Menyimpan Cache: 
+- Browser menyimpan salinan halaman web dan file statis (seperti gambar) untuk mempercepat akses di kemudian hari.
+
 Beberapa Contoh Web Browser Populer:
-Google Chrome: Salah satu browser paling populer yang dikembangkan oleh Google.
-Mozilla Firefox: Browser open-source yang dikembangkan oleh Mozilla.
-Microsoft Edge: Browser yang dikembangkan oleh Microsoft, penerus Internet Explorer.
-Safari: Browser yang dikembangkan oleh Apple, digunakan pada perangkat macOS dan iOS.
-Opera: Browser yang dikenal dengan fitur kompresi datanya untuk akses internet yang lebih cepat.
+
+Google Chrome: 
+- Salah satu browser paling populer yang dikembangkan oleh Google.
+
+Mozilla Firefox: 
+- Browser open-source yang dikembangkan oleh Mozilla.
+
+Microsoft Edge:
+- Browser yang dikembangkan oleh Microsoft, penerus Internet Explorer.
+
+Safari:
+- Browser yang dikembangkan oleh Apple, digunakan pada perangkat macOS dan iOS.
+
+Opera: 
+- Browser yang dikenal dengan fitur kompresi datanya untuk akses internet yang lebih cepat.
+
 Cara Kerja Web Browser:
+
 Anda mengetik alamat URL (misalnya, www.google.com) di address bar browser.
 Browser mengirimkan permintaan ke server menggunakan protokol HTTP atau HTTPS.
 DNS menerjemahkan alamat URL menjadi alamat IP server.
