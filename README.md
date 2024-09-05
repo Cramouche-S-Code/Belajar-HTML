@@ -20,17 +20,17 @@ IPv4: 192.168.1.1
 IPv6: 2001:0db8:85a3:0000:0000:8a2e:0370:7334 4. Domain Name System (DNS)
 DNS adalah sistem yang menerjemahkan alamat domain (seperti www.google.com) menjadi alamat IP. Ketika Anda mengetik URL di browser, DNS menemukan alamat IP yang sesuai dengan domain tersebut dan mengarahkan permintaan Anda ke server yang tepat.
 
-5. Data Traveling in Packets
+2. Data Traveling in Packets
    Data di internet dipecah menjadi paket-paket kecil. Setiap paket berisi:
 
 Data itu sendiri (payload): Misalnya, bagian dari halaman web.
 Header paket: Informasi seperti alamat pengirim, alamat penerima, dan urutan paket.
 Paket-paket ini dikirimkan melalui berbagai jalur (routing) dan dapat melewati berbagai server (router) di seluruh dunia sebelum sampai di tujuan.
 
-6. Routing dan Router
+3. Routing dan Router
    Router adalah perangkat yang mengarahkan paket-paket data ke tujuan mereka. Setiap paket mungkin melewati banyak router sebelum sampai ke server atau perangkat client. Router memilih rute terbaik berdasarkan kecepatan dan kondisi jaringan.
 
-7. HTTP/HTTPS (Hypertext Transfer Protocol/Secure)
+4. HTTP/HTTPS (Hypertext Transfer Protocol/Secure)
    Ketika Anda mengunjungi sebuah website, browser mengirimkan permintaan melalui protokol HTTP atau HTTPS.
 
 HTTP digunakan untuk mengirim permintaan dan menerima respons dari server web.
@@ -44,13 +44,14 @@ CSS menambahkan styling dan layout.
 JavaScript menambahkan interaktivitas.
 Semua file ini dirender oleh browser untuk menampilkan halaman web yang Anda lihat.
 
-10. Keamanan dan Enkripsi
+5. Keamanan dan Enkripsi
     Firewall: Melindungi perangkat dan jaringan dari akses yang tidak diinginkan.
     SSL/TLS: Protokol enkripsi yang digunakan oleh HTTPS untuk melindungi data sensitif, seperti informasi login atau transaksi keuangan.
-11. Pengiriman Data Berkelanjutan
+6. Pengiriman Data Berkelanjutan
     Internet memungkinkan pengiriman data secara real-time atau mendekati real-time melalui berbagai teknologi seperti streaming, video call, dan game online.
 
-Ringkasan Proses Kerja Internet
+## Ringkasan Proses Kerja Internet:
+
 Anda mengetikkan alamat website (URL) di browser.
 DNS menerjemahkan URL menjadi alamat IP dari server tujuan.
 Permintaan (request) dikirim melalui berbagai router hingga mencapai server.
@@ -67,6 +68,7 @@ Itulah cara kerja internet secara singkat!
    Dalam konteks jaringan komputer, port adalah titik akhir atau jalur logis yang digunakan untuk mengatur komunikasi antara perangkat di jaringan. Setiap perangkat yang terhubung ke internet memiliki alamat IP yang digunakan untuk mengidentifikasi perangkat tersebut, namun untuk mengidentifikasi layanan atau aplikasi spesifik yang sedang digunakan, port digunakan.
 
 Port Numbers (Nomor Port): Setiap layanan jaringan memiliki nomor port yang berbeda. Ini membantu perangkat mengetahui ke aplikasi atau layanan mana data yang diterima harus diarahkan. Misalnya, web server menggunakan port yang berbeda dengan server email.
+
 Beberapa Port yang Umum:
 Port 80: Untuk HTTP (Hypertext Transfer Protocol) – layanan web standar.
 Port 443: Untuk HTTPS (Hypertext Transfer Protocol Secure) – layanan web aman yang menggunakan enkripsi.
@@ -113,21 +115,20 @@ Opera:
 - Browser yang dikenal dengan fitur kompresi datanya untuk akses internet yang lebih cepat.
 
 Cara Kerja Web Browser:
-
-Anda mengetik alamat URL (misalnya, www.google.com) di address bar browser.
-Browser mengirimkan permintaan ke server menggunakan protokol HTTP atau HTTPS.
-DNS menerjemahkan alamat URL menjadi alamat IP server.
-Browser terhubung ke server melalui alamat IP dan nomor port yang sesuai (misalnya, port 80 atau 443).
-Server mengirimkan file HTML, CSS, dan JavaScript yang diminta.
-Browser memproses file-file tersebut dan menampilkan halaman web.
-Komponen Penting pada Web Browser:
-Rendering Engine: Bagian dari browser yang merender konten halaman web dan menerjemahkannya menjadi bentuk visual.
-JavaScript Engine: Mengolah dan menjalankan skrip JavaScript di halaman web.
-User Interface (UI): Komponen visual yang dilihat pengguna, termasuk address bar, tombol navigasi, dan jendela tampilan konten.
-Ringkasan:
-Port adalah jalur logis pada jaringan yang digunakan untuk mengatur lalu lintas data ke aplikasi atau layanan tertentu (misalnya, port 80 untuk HTTP, port 443 untuk HTTPS).
-Web Browser adalah aplikasi yang digunakan untuk mengakses halaman web, berfungsi untuk mengambil, menerjemahkan, dan menampilkan konten web kepada pengguna.
-Keduanya bekerja bersama: browser menggunakan port untuk berkomunikasi dengan server di internet dan menampilkan konten web ke pengguna.
+   - Anda mengetik alamat URL (misalnya, www.google.com) di address bar browser.
+   - Browser mengirimkan permintaan ke server menggunakan protokol HTTP atau HTTPS.
+   - DNS menerjemahkan alamat URL menjadi alamat IP server.
+   - Browser terhubung ke server melalui alamat IP dan nomor port yang sesuai (misalnya, port 80 atau 443).
+   - Server mengirimkan file HTML, CSS, dan JavaScript yang diminta.
+   - Browser memproses file-file tersebut dan menampilkan halaman web.
+   - Komponen Penting pada Web Browser:
+   - Rendering Engine: Bagian dari browser yang merender konten halaman web dan menerjemahkannya menjadi bentuk visual.
+   - JavaScript Engine: Mengolah dan menjalankan skrip JavaScript di halaman web.
+   - User Interface (UI): Komponen visual yang dilihat pengguna, termasuk address bar, tombol navigasi, dan jendela tampilan konten.
+   - Ringkasan:
+   - Port adalah jalur logis pada jaringan yang digunakan untuk mengatur lalu lintas data ke aplikasi atau layanan tertentu (misalnya, port 80 untuk HTTP, port 443 untuk HTTPS).
+   - Web Browser adalah aplikasi yang digunakan untuk mengakses halaman web, berfungsi untuk mengambil, menerjemahkan, dan menampilkan konten web kepada pengguna.
+   - Keduanya bekerja bersama: browser menggunakan port untuk berkomunikasi dengan server di internet dan menampilkan konten web ke pengguna.
 
 ## Bagaimana http Bekerja ?
 
