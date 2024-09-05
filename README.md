@@ -67,17 +67,20 @@ Itulah cara kerja internet secara singkat!
 1. Port:
    Dalam konteks jaringan komputer, port adalah titik akhir atau jalur logis yang digunakan untuk mengatur komunikasi antara perangkat di jaringan. Setiap perangkat yang terhubung ke internet memiliki alamat IP yang digunakan untuk mengidentifikasi perangkat tersebut, namun untuk mengidentifikasi layanan atau aplikasi spesifik yang sedang digunakan, port digunakan.
 
-Port Numbers (Nomor Port): Setiap layanan jaringan memiliki nomor port yang berbeda. Ini membantu perangkat mengetahui ke aplikasi atau layanan mana data yang diterima harus diarahkan. Misalnya, web server menggunakan port yang berbeda dengan server email.
+Port Numbers (Nomor Port): 
+- Setiap layanan jaringan memiliki nomor port yang berbeda. Ini membantu perangkat mengetahui ke aplikasi atau layanan mana data yang diterima harus diarahkan. Misalnya, web server menggunakan port yang berbeda dengan server email.
 
 Beberapa Port yang Umum:
 Port 80: Untuk HTTP (Hypertext Transfer Protocol) – layanan web standar.
 Port 443: Untuk HTTPS (Hypertext Transfer Protocol Secure) – layanan web aman yang menggunakan enkripsi.
 Port 25: Untuk SMTP (Simple Mail Transfer Protocol) – layanan pengiriman email.
 Port 21: Untuk FTP (File Transfer Protocol) – layanan transfer file.
-Cara Kerja Port:
+
+### Cara Kerja Port:
+
 Ketika Anda mengunjungi sebuah situs web, permintaan (request) yang dikirim dari browser Anda akan menggunakan alamat IP dan nomor port untuk mencapai server tujuan. Port bertindak seperti pintu yang terbuka untuk aplikasi spesifik. Misalnya, jika Anda mengakses situs web aman, browser akan menggunakan port 443 (HTTPS).
 
-Ilustrasi:
+### Ilustrasi:
 Jika sebuah komputer adalah sebuah gedung, alamat IP adalah alamat gedung tersebut, dan port adalah nomor pintu yang berbeda di gedung untuk layanan tertentu, seperti pintu 80 untuk HTTP, pintu 443 untuk HTTPS.
 
 2. Web Browser:
